@@ -1,0 +1,10 @@
+int main()
+{
+//if I'm not too close
+while(analog(7) < 475)
+{
+//go forward
+motor(0,100);
+motor(3,100);
+}
+ao();
