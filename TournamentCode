@@ -2,6 +2,6 @@ int main()
 {
   wait_for_light;
   shut_down_in (119);
-  printf("My program should score more points than this template!\n");
+  printf("Ready to start getting points!\n");
   return 0;
 }
